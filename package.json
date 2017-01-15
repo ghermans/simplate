@@ -1,6 +1,23 @@
 {
+  "private": true,
+  "name": "simplate",
+  "description": "Simple frontend template for quick start",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aziev/simplate.git"
+  },
+  "author": "Mikail Aziev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aziev/simplate/issues"
+  },
+  "homepage": "https://github.com/aziev/simplate#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^2.2.0"
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.1.1",
+    "merge-stream": "^1.0.1",
+    "normalize.css": "^5.0.0"
   }
 }
